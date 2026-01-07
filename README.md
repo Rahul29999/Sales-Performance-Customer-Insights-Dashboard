@@ -81,7 +81,6 @@ This dashboard enables stakeholders to:
 - Compare product and regional contribution to revenue
 - Support strategic and operational decision-making
 
----
 
 ## 🧑‍💻 Author
 Rahul Kumar Sharma  
