@@ -39,11 +39,18 @@ regional distribution, sales vs target performance, and customer buying behavior
 - **Customer Contribution** — Top customers drive a major share of revenue
 - **Target vs Actual** — Sales exceeds defined target threshold
 
-##  Report Preview
+## 📷 Dashboard Preview
+
+### 🟡 Overview Dashboard
+![Overview](screenshots/Page1.png)
+
+### 🔵 KPI & Sales Trend Analysis
+![KPI Trends](screenshots/Page2.png)
+
+### 🟣 Customer & Product Insights
+![Customer Insights](screenshots/Page3.png)
 
 Screenshots available in `/screenshots` folder.
-
-
 
 ##  View / Download Report
 
