@@ -1,46 +1,68 @@
 # Power BI — Sales Performance & Customer Insights Dashboard
 
-This project is an interactive Power BI dashboard designed to analyze
-product-wise, region-wise, category-wise, and customer-wise sales performance.
-The dashboard provides insights into revenue trends, product contribution,
-regional distribution, sales vs target performance, and customer buying behavior.
+This project is an end-to-end Sales Analytics solution where the data was 
+cleaned in Excel, prepared using SQL expressions, and visualized through 
+an interactive Power BI dashboard. The report provides deep insights into 
+product-wise, region-wise, month-wise and customer-wise sales performance, 
+helping identify key revenue drivers and business trends.
 
-##  Project Overview
+---
 
-- Visualizes Total Sales by Product, Region, Category, Month, and Customer
-- Helps understand high-performing products and key revenue-driving regions
-- Includes KPI indicators such as:
+## Project Overview
+
+- Analyzes Total Sales across Products, Regions, Categories, Months and Customers
+- Identifies high-performing products and top-revenue contributing regions
+- Includes KPI metrics such as:
   - Total Sales
   - Quantity Sold
   - Distinct Customers
   - Average Unit Price
-- Supports business decision-making using interactive filters and drill-downs
+- Supports data-driven decision making with slicers, drill-downs and filters
 
-##  Dataset & Scope
+---
 
-- Dataset Type: Sales transactions dataset (product & customer level)
+##  Dataset & Business Scope
+
+- Dataset Type: Sales transaction dataset
 - Key Dimensions: Product, Region, Category, Customer, Time
-- Measures Used: Total Sales, Quantity, Target vs Actual comparison
+- Key Measures: Total Sales, Quantity, Sales vs Target, Unit Price
 
-##  Tools & Techniques
+---
 
-- Power BI Desktop
-- DAX Measures
-- Data Modeling (Star Schema Concepts)
-- Interactive Visualizations & Slicers
-- Trend & KPI Analysis
+##  Data Processing Workflow
 
-##  Dashboard Insights (Highlights)
+###  Data Cleaning — Excel
+- Removed duplicates and missing values  
+- Standardized product, region and customer fields  
+- Corrected data types and formatting
 
-- **Product Performance** — Mouse & Monitor contribute the highest sales
-- **Regional Sales** — East region has the maximum revenue share
-- **Category Split** — Electronics contributes the majority share
-- **Sales Trend** — Monthly sales shows declining trend over later months
-- **Customer Contribution** — Top customers drive a major share of revenue
-- **Target vs Actual** — Sales exceeds defined target threshold
+###  Data Transformation — SQL
+- Loaded cleaned data into structured tables  
+- Used SQL expressions for aggregation and filtering  
+- Generated metrics such as:
+  - Regional Sales Summary
+  - Product Contribution
+  - Customer-wise Sales
 
-## 📷 Dashboard Preview
+###  Reporting & Analytics — Power BI
+- Data Modeling using Fact–Dimension structure  
+- DAX Measures for KPIs and business logic  
+- Interactive dashboards with slicers and drill-through analysis  
 
+---
+
+##  Dashboard Insights (Key Findings)
+
+- **Product Performance** — Mouse & Monitor generate the highest revenue
+- **Regional Analysis** — East region contributes maximum sales
+- **Category Contribution** — Electronics dominates total sales share
+- **Sales Trend** — Gradual decline across later months
+- **Customer Insights** — A few top customers drive majority revenue
+- **Target vs Actual** — Sales exceeds defined performance target
+
+---
+
+##  Dashboard Preview
 ### 🟡 Overview Dashboard
 ![Overview](screenshots/Page1.png)
 
@@ -50,22 +72,24 @@ regional distribution, sales vs target performance, and customer buying behavior
 ### 🟣 Customer & Product Insights
 ![Customer Insights](screenshots/Page3.png)
 
-Screenshots available in `/screenshots` folder.
+---
 
 ##  View / Download Report
-
-The full dashboard report (PDF export) is available here:  
- `report.pdf`
-
-##  Project Outcome
-
-This dashboard enables business stakeholders to:
-- Track revenue performance across multiple dimensions
-- Identify key growth regions and products
-- Analyze customer purchasing patterns
-- Support data-driven decision-making
+The complete exported dashboard report is available in:
+`report.pdf`
 
 ---
 
-### 👤 Author
+## Outcome & Business Value
+
+This dashboard enables stakeholders to:
+- Monitor business performance across multiple dimensions
+- Identify growth opportunities and high-value customer segments
+- Compare product and regional contribution to revenue
+- Support strategic and operational decision-making
+
+---
+
+## 🧑‍💻 Author
 Rahul Kumar Sharma  
+Excel ▸ SQL ▸ Power BI ▸ Data Analytics
