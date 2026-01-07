@@ -6,7 +6,6 @@ an interactive Power BI dashboard. The report provides deep insights into
 product-wise, region-wise, month-wise and customer-wise sales performance, 
 helping identify key revenue drivers and business trends.
 
----
 
 ## Project Overview
 
@@ -19,7 +18,6 @@ helping identify key revenue drivers and business trends.
   - Average Unit Price
 - Supports data-driven decision making with slicers, drill-downs and filters
 
----
 
 ##  Dataset & Business Scope
 
@@ -27,7 +25,6 @@ helping identify key revenue drivers and business trends.
 - Key Dimensions: Product, Region, Category, Customer, Time
 - Key Measures: Total Sales, Quantity, Sales vs Target, Unit Price
 
----
 
 ##  Data Processing Workflow
 
@@ -49,7 +46,6 @@ helping identify key revenue drivers and business trends.
 - DAX Measures for KPIs and business logic  
 - Interactive dashboards with slicers and drill-through analysis  
 
----
 
 ##  Dashboard Insights (Key Findings)
 
@@ -60,7 +56,6 @@ helping identify key revenue drivers and business trends.
 - **Customer Insights** — A few top customers drive majority revenue
 - **Target vs Actual** — Sales exceeds defined performance target
 
----
 
 ##  Dashboard Preview
 ### 🟡 Overview Dashboard
@@ -72,13 +67,11 @@ helping identify key revenue drivers and business trends.
 ### 🟣 Customer & Product Insights
 ![Customer Insights](screenshots/Page3.png)
 
----
 
 ##  View / Download Report
 The complete exported dashboard report is available in:
 `report.pdf`
 
----
 
 ## Outcome & Business Value
 
