@@ -42,7 +42,6 @@ regional distribution, sales vs target performance, and customer buying behavior
 ##  Report Preview
 
 Screenshots available in `/screenshots` folder.
-screenshots/page1.png
 
 
 
